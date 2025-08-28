@@ -1,6 +1,0 @@
-[
-  { "label": "トップページ", "href": "home" },
-  { "label": "来歴", "href": "bio" },
-  { "label": "作品", "href": "works" },
-  { "label": "メッセージ", "href": "message" }
-]
