@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta property="og:image" content="/assets/img/01.png">
-	<title>来歴 - 作曲家 津堅泰久</title>
+	<title>Biography - Composer, Yasuhisa Tsugata</title>
 	<link rel="stylesheet" href="../styles.css">
 	<script src="../header.js" defer></script>
 </head>
@@ -16,11 +16,11 @@
 	<section class="bio-section">
 		<div class="bio-bg"></div>
 		<div class="bio-block">
-			<h1>来歴</h1>
+			<h1>Biography</h1>
 			<div class="img-box">
 				<figure class="img-set">
 					<img src="../assets/img/02.jpg">
-					<figcaption>1986年頃、東京・青山の岡本太郎邸にて。<span>左から、岡本太郎、泰久、母、父。</span></figcaption>
+					<figcaption>1986年頃、東京・青山の岡本太郎邸にて。<span>左から、岡本太郎、Yasuhisa、母、父。</span></figcaption>
 				</figure>
 			</div>
 			<div class="bio-text">
@@ -71,6 +71,49 @@
 			</div>
 		</div>
 	</section>
+
+	<!--EN注釈-->
+	<div id="translate-popup" class="popup">
+		<p>
+			This page is edited to be translated correctly,<br>
+			but it is written in Japanese.<br>
+			Please use your browser's translation feature.
+		</p>
+		<button id="popup-close">×</button>
+	</div>
+
+	<style>
+		.popup {
+			position: fixed;
+			bottom: 20px;
+			right: 20px;
+			background: rgba(0, 0, 0, 0.85);
+			color: white;
+			padding: 1em 1.5em;
+			border-radius: 8px;
+			max-width: 300px;
+			font-size: 0.9em;
+			line-height: 1.4;
+			z-index: 9999;
+		}
+
+		.popup button {
+			position: absolute;
+			top: 5px;
+			right: 8px;
+			background: none;
+			border: none;
+			color: white;
+			font-size: 1.2em;
+			cursor: pointer;
+		}
+	</style>
+
+	<script>
+		document.getElementById("popup-close").onclick = function () {
+			document.getElementById("translate-popup").style.display = "none";
+		};
+	</script>
 </body>
 
 </html>

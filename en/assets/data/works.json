@@ -192,7 +192,7 @@
     "youtube-id": null
   },
   {
-    "title": "三つの小品",
+    "title": "<span class='jp_title'>三つの小品</span> <span class='jp_title_en'>(Three Pieces)</span>",
     "instrumentation": "Violin, Viola, Violonecello",
     "pdf-id": "1gGVUaUgotnuhzXfm4f2nad7y6rO63dip",
     "fp-year": null,
@@ -204,7 +204,7 @@
     "youtube-id": null
   },
   {
-    "title": "静寂から -aus der stille-",
+    "title": "<span style='font-style:italic;'>静寂から</span> <span>-aus der stille-</span>",
     "instrumentation": "2 Flutes",
     "pdf-id": "1srpZqxHABmrdwcGnauPiFg4vuCJJxrt8",
     "fp-year": null,
@@ -216,7 +216,7 @@
     "youtube-id": null
   },
   {
-    "title": "夜",
+    "title": "<span class='jp_title'>夜</span> <span class='jp_title_en'>(Nacht)</span>",
     "instrumentation": "Violoncello",
     "pdf-id": "1BiVgvcrQ2HwMOUEn05N1PkVTl7m7qY-5",
     "fp-year": null,
@@ -228,7 +228,7 @@
     "youtube-id": null
   },
   {
-    "title": "夜",
+    "title": "<span class='jp_title'>夜</span> <span class='jp_title_en'>(Nacht)</span>",
     "instrumentation": "Viola",
     "pdf-id": "1Xpmv5SJXZv4cgFGog_ZdXHRZM2utfvYc",
     "fp-year": null,

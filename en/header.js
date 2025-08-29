@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 	if (header) {
 		header.innerHTML = `
-      <div class="logo">作曲家 津堅泰久</div>
+      <div class="logo">Composer, Yasuhisa Tsugata</div>
       <nav>
         <ul id="header-menu" class="menu-list"></ul>
       </nav>
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					if (list.closest(`#${item.href}`)) return;
 					const li = document.createElement("li");
 					const a = document.createElement("a");
-					a.href = `/${item.href}`;
+					a.href = `/en/${item.href}`;
 					a.textContent = item.label;
 
 					li.appendChild(a);
@@ -32,14 +32,14 @@ document.addEventListener("DOMContentLoaded", function() {
 			// Headerにenを追加
 			const headerLi = document.getElementById("header-menu");
 
-			const enLi = document.createElement("li");
-			const enA = document.createElement("a");
-			enA.style = "font-size: 0.8rem;";
-			enA.href = "/en/" + directory;
-			enA.textContent = "[ENGLISH]";
+			const jpLi = document.createElement("li");
+			const jpA = document.createElement("a");
+			jpA.style = "font-size: 0.8rem;";
+			jpA.href = "/" + directory;
+			jpA.textContent = "[JAPANESE]";
 
-			enLi.appendChild(enA);
-			headerLi.appendChild(enLi);
+			jpLi.appendChild(jpA);
+			headerLi.appendChild(jpLi);
 		})
 		.catch(err => console.error("メニュー読み込み失敗:", err));
 

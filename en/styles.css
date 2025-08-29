@@ -431,6 +431,13 @@ span {
 	color: #555;
 }
 
+span.jp_title{
+	font-style: italic;
+}
+span.jp_title_en{
+	color:gray;
+}
+
 @media screen and (min-width: 800px) {
 	#works-list {
 		display: flex;

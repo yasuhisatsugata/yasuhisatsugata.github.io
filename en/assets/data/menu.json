@@ -1,0 +1,6 @@
+[
+  { "label": "Top", "href": "home" },
+  { "label": "Biography", "href": "bio" },
+  { "label": "Works", "href": "works" },
+  { "label": "Message", "href": "message" }
+]
