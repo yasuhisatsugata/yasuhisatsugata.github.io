@@ -369,6 +369,10 @@ span {
 	font-family: "Noto Serif JP";
 }
 
+.message-text.tsugata p {
+	font-family: "Sawarabi Mincho";
+}
+
 .message-text.toshiya p {
 	font-family: "Zen Old Mincho";
 }
