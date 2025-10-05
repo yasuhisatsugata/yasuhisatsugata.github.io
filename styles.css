@@ -365,19 +365,19 @@ span {
 	line-height: 1.85;
 }
 
-.message-text.hosokawa p {
+.message-text.message1 p {
 	font-family: "Noto Serif JP";
 }
 
-.message-text.tsugata p {
+.message-text.message2 p {
 	font-family: "Sawarabi Mincho";
 }
 
-.message-text.toshiya p {
+.message-text.message3 p {
 	font-family: "Zen Old Mincho";
 }
 
-.message-text.dummy p {
+.message-text.message4 p {
 	font-family: "Shippori Mincho B1";
 }
 
